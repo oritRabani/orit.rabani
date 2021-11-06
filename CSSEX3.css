@@ -1,0 +1,27 @@
+*{
+    text-align: Left;
+}
+
+h1 {
+    color: darkslategray;
+    text-align: center;
+    background-color: burlywood;
+}
+
+#ContactInfo {
+    color: cadetblue;
+    background-color: floralwhite;
+}
+
+#PersonalInfo{
+    color: cornflowerblue;
+    background-color: antiquewhite;
+}
+
+.class1 {
+    color: darksalmon;
+    background-color: #b9c98c;
+}
+
+
+
