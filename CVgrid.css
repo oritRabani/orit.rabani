@@ -1,3 +1,8 @@
+*{
+    border: 1px solid black;
+    text-align: center;
+}
+
 #GridContainer {
     display: grid;
     grid-template-areas:
@@ -43,9 +48,21 @@
     text-align: center;
 }
 
+#ImageRotate{
+    animation-name: rotatingPic;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
 /* media query */
 @media only screen and (max-width: 600px) {
     body {
         background-color: cornflowerblue;
     }
+}
+
+@keyframes rotatingPic  {
+    0%{transform: rotate(0deg)}
+    50%{transform: rotate(-180deg)}
+    100%{transform: rotate(360deg)}
 }
